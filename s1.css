@@ -577,4 +577,45 @@ h4 {
   #kara{
   	width: 100%;
   }
+  #line6,#line7{
+  	flex-wrap: wrap;
+  }
 }
+#ggg{
+	display: flex; 
+      flex-direction: row;
+      color: rgb(197,18,48);
+      font-size: 30px;
+      font-family: 'Muli', sans-serif;
+}
+#nn1,#nn2,#nn3,#nn4,#nn6{
+	text-decoration: none;
+	font-size: 20px;
+	position: relative;
+	bottom: 100px;
+	z-index: 7;
+	left: 20px;
+	color: white;
+	font-family: 'Muli', sans-serif;
+	text-decoration: underline;
+	text-decoration-style: solid;
+	text-decoration-color: gray;
+}
+#nn5{
+	text-decoration: none;
+	font-size: 20px;
+	position: relative;
+	bottom: 100px;
+	z-index: 7;
+	left: 20px;
+	color: black;
+	font-family: 'Muli', sans-serif;
+	text-decoration: underline;
+	text-decoration-style: solid;
+	text-decoration-color: gray;
+}
+#karta{
+	max-width: 1000px;
+	margin: auto;
+	font-family: 'Comfortaa', cursive;
+	margin-top: 50px;}
