@@ -106,7 +106,7 @@ border-color: transparent rgb(38,59,87) transparent transparent;
 	border: 1px solid rgb(240,203,0);
 
 }
-::placeholder { 
+#line42 input::placeholder { 
   color: white;
   opacity: 1; 
   font-family: 'Comfortaa', cursive;
@@ -147,7 +147,7 @@ border-color: transparent rgb(38,59,87) transparent transparent;
 	font-family: 'Muli', sans-serif;
 	position: relative;
 	bottom: 270px;	
-	z-index: 8;	
+	z-index: 7;	
 	color: rgb(240,203,0);
 	left: 30px;
 }
@@ -619,3 +619,83 @@ h4 {
 	margin: auto;
 	font-family: 'Comfortaa', cursive;
 	margin-top: 50px;}
+#log{
+	width: 30%;
+	height: 30vw;	
+	border: 5px solid rgb(38,59,87);
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	background-color: #F2EEEE;
+	margin-bottom: 150px;
+}
+body,html{
+	height: 100%;
+
+} 
+#log img{
+	width: 20%;
+	margin-left: 5%;
+
+}
+#log1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+	flex-direction: column;
+	color:rgb(38,59,87)	;
+	font-family: 'Muli', sans-serif;
+	font-size: 230%;	
+}
+#znakk{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+#znak{
+	width:8%;
+
+	
+}
+#wel{
+	width: 100%;
+	font-family: 'Lobster Two', cursive;
+	font-size: 230%;
+	text-align: center;
+	color:rgb(38,59,87)	;
+}
+#log2 input::placeholder{
+	color: gray;
+}
+#log2{
+	height: 30%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;justify-content: space-around;
+}
+#log2 input{
+	padding: 5px;
+	border-radius: 5px;
+	border: 2px solid rgb(38,59,87);
+}
+#log3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#log3 button{
+	border: 2px solid rgb(38,59,87);
+	color: rgb(38,59,87);
+	border-radius: 4px;
+	width: 70px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 8;
+}
