@@ -149,7 +149,7 @@ border-color: transparent rgb(38,59,87) transparent transparent;
 	bottom: 270px;	
 	z-index: 7;	
 	color: rgb(240,203,0);
-	left: 30px;
+	margin-left: 6%;
 }
 #soz1{
 	font-size: 25px;
@@ -157,7 +157,7 @@ border-color: transparent rgb(38,59,87) transparent transparent;
 	bottom: 190px;
 	color: white;
 	z-index: 5;
-	left: 20px;
+	margin-left: 4%;
 	font-family: 'Bitter', serif;
 }
 #line6{
