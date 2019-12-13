@@ -131,6 +131,11 @@ border-color: transparent rgb(38,59,87) transparent transparent;
 	z-index: 2;
 	opacity: 0.6;
 }
+#log{
+	-webkit-box-shadow: 1px 2px 12px 6px rgba(0,0,0,0.32);
+-moz-box-shadow: 1px 2px 12px 6px rgba(0,0,0,0.32);
+box-shadow: 1px 2px 12px 6px rgba(0,0,0,0.32);
+}
 #line50 img{
 	width: 100%;
 	height: 100%;
@@ -234,6 +239,21 @@ border-color: transparent rgb(38,59,87) transparent transparent;
 	width: calc(100%/3);
 }
 #line7 img{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	object-fit:cover;
+}
+#line8{
+	width: 100%;
+	height: 330px;
+	display: flex;
+}
+.l8{
+	height: 100%;
+	width: calc(100%/3);
+}
+#line8 img{
 	width: 100%;
 	height: 100%;
 	z-index: 1;
@@ -541,13 +561,13 @@ h4 {
 	text-align: center;
 }
 #ll{
-	max-width: 1000px;
+	max-width: 74%;
 	margin: auto;
 	font-family: 'Comfortaa', cursive;
 	margin-top: 50px;
 }
 #tt,#rr{
-	max-width: 1000px;
+	max-width: 74%;
 	margin: auto;
 	font-family: 'Muli', sans-serif;
 	margin-top: 50px;
@@ -588,7 +608,7 @@ h4 {
       font-size: 30px;
       font-family: 'Muli', sans-serif;
 }
-#nn1,#nn2,#nn3,#nn4,#nn6{
+#nn1,#nn2,#nn3,#nn5,#nn4,#nn6,#nn7,#nn8,#nn9{
 	text-decoration: none;
 	font-size: 20px;
 	position: relative;
@@ -601,18 +621,16 @@ h4 {
 	text-decoration-style: solid;
 	text-decoration-color: gray;
 }
-#nn5{
-	text-decoration: none;
-	font-size: 20px;
-	position: relative;
-	bottom: 100px;
-	z-index: 7;
-	left: 20px;
-	color: black;
-	font-family: 'Muli', sans-serif;
-	text-decoration: underline;
-	text-decoration-style: solid;
-	text-decoration-color: gray;
+#photo{
+	width: 74%;
+	display: flex;
+	justify-content: left;
+}
+#photo img{
+	width: 50%;
+	border: 3px solid rgb(38,59,87);
+	border-radius: 3px;
+
 }
 #karta{
 	max-width: 1000px;
@@ -654,12 +672,9 @@ body,html{
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
-
 }
 #znak{
-	width:8%;
-
-	
+	width:8%;	
 }
 #wel{
 	width: 100%;
@@ -698,4 +713,10 @@ body,html{
   top: 0;
   width: 100%;
   z-index: 8;
+}
+#line6 a,#line7 a,#line8 a{
+	width: 90px;
+	height: 20px;
+	background-color: black;
+	text-decoration: none;
 }
